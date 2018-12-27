@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>咨询页</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/normalstyle.css">
+    <link rel="stylesheet" href="css/myown.css">
+<body>
+  <!--导航条开始-->
+<nav>
+    <a href="/">及目招聘</a>
+    <li class="dropdown">
+        <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">欢迎您，<span>然诺科技</span><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="/signin">退出登录</a></li>
+        </ul>
+    </li>
+</nav>
+ <!--导航条结束-->
+ <!--左侧菜单开始-->
+<div id="container">
+    <div id="menu">
+        <ul>
+            <li role="presentation" value="list">
+                <a href="#">
+                    <span>List</span>
+                </a>
+            </li>
+            <li role="presentation" value="personnel">
+                <a href="#">
+                    <span>人才</span>
+                </a>
+            </li>
+            <li role="presentation" value="activity">
+                <a href="#">
+                    <span>活动</span>
+                </a>
+            </li>
+            <li role="presentation" value="activity" class="selected">
+                <a href="#">
+                    <span>资讯</span>
+                </a>
+            </li>
+            <li role="presentation" value="member">
+                <a href="#">
+                    <span>会员</span>
+                </a>
+            </li>
+            <li role="presentation" value="member">
+                <a href="#">
+                    <span>账号</span>
+                </a>
+            </li>
+            <li role="presentation" value="stack">
+                <a href="#">
+                    <span>资料</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--左侧菜单结束-->
+<!--标签页开始-->
+    <div id="content">
+        <div class="container-fluid">
+            <div class="title">
+                <h3>活动管理</h3>
+                <div class="actCre fr">
+                    <button type="button" class="newAct btn"><a href="./NewConsultDetails.html" style="color:#fff">新建咨询</a></button>
+                    <button type="button" class="newMan btn">分类管理</button>
+                </div>
+            </div>
+            <div class="metab">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active" data-toggle="tab"><a href="#allType" data-toggle="tab">
+                    全部类型</a></li>
+                <li><a href="#hrTips" data-toggle="tab">HR小技巧</a></li>
+                <li><a href="#HRtech" data-toggle="tab">HRtech</a></li>
+                <li><a href="#tax" data-toggle="tab">社税解读</a></li>
+                <li><a href="#jobHunt" data-toggle="tab">求职辅导</a></li>
+                <li><a href="#proAna" data-toggle="tab">行业分析</a></li>
+            </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="allType">
+                        <div class="tab-content tab-pane fade in active" >
+                            <table class="table table-hover" >
+                                <thead>
+                                <br>
+                                <tr>
+                                    <th>咨询标题</th>
+                                    <th>原作者</th>
+                                    <th>分类</th>
+                                    <th>阅读量</th>
+                                    <th>评论数</th>
+                                    <th>发布时间</th>
+                                    <th>创建</th>
+                                </tr>
+                                </thead>
+                                <tbody class="tbody aType">
+                                <tr>
+                                    <td>标题一</td>
+                                    <td>作者一</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                <tr>
+                                    <td>标题一</td>
+                                    <td>作者一</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="hrTips">
+                        <div class="tab-content tab-pane fade in active" >
+                            <table class="table table-hover" >
+                                <thead>
+                                <br>
+                                <tr>
+                                    <th>咨询标题</th>
+                                    <th>原作者</th>
+                                    <th>分类</th>
+                                    <th>阅读量</th>
+                                    <th>评论数</th>
+                                    <th>发布时间</th>
+                                    <th>创建</th>
+                                </tr>
+                                </thead>
+                                <tbody class="tbody bhrTips">
+                                <tr>
+                                    <td>标题二</td>
+                                    <td>作者二</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                <tr>
+                                    <td>标题二</td>
+                                    <td>作者二</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="HRtech">
+                        <div class="tab-content tab-pane fade in active" >
+                            <table class="table table-hover" >
+                                <thead>
+                                <br>
+                                <tr>
+                                    <th>咨询标题</th>
+                                    <th>原作者</th>
+                                    <th>分类</th>
+                                    <th>阅读量</th>
+                                    <th>评论数</th>
+                                    <th>发布时间</th>
+                                    <th>创建</th>
+                                </tr>
+                                </thead>
+                                <tbody class="tbody cHRtech">
+                                <tr>
+                                    <td>标题三</td>
+                                    <td>作者三</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                <tr>
+                                    <td>标题三</td>
+                                    <td>作者三</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tax">
+                        <div class="tab-content tab-pane fade in active" >
+                            <table class="table table-hover" >
+                                <thead>
+                                <br>
+                                <tr>
+                                    <th>咨询标题</th>
+                                    <th>原作者</th>
+                                    <th>分类</th>
+                                    <th>阅读量</th>
+                                    <th>评论数</th>
+                                    <th>发布时间</th>
+                                    <th>创建</th>
+                                </tr>
+                                </thead>
+                                <tbody class="tbody ctax">
+                                <tr>
+                                    <td>标题四</td>
+                                    <td>作者四</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                <tr>
+                                    <td>标题四</td>
+                                    <td>作者四</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="jobHunt">
+                        <div class="tab-content tab-pane fade in active" >
+                            <table class="table table-hover" >
+                                <thead>
+                                <br>
+                                <tr>
+                                    <th>咨询标题</th>
+                                    <th>原作者</th>
+                                    <th>分类</th>
+                                    <th>阅读量</th>
+                                    <th>评论数</th>
+                                    <th>发布时间</th>
+                                    <th>创建</th>
+                                </tr>
+                                </thead>
+                                <tbody class="tbody djobHunt">
+                                <tr>
+                                    <td>标题五</td>
+                                    <td>作者五</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                <tr>
+                                    <td>标题五</td>
+                                    <td>作者五</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="proAna">
+                        <div class="tab-content tab-pane fade in active" >
+                            <table class="table table-hover" >
+                                <thead>
+                                <br>
+                                <tr>
+                                    <th>咨询标题</th>
+                                    <th>原作者</th>
+                                    <th>分类</th>
+                                    <th>阅读量</th>
+                                    <th>评论数</th>
+                                    <th>发布时间</th>
+                                    <th>创建</th>
+                                </tr>
+                                </thead>
+                                <tbody class="tbody EproAna">
+                                <tr>
+                                    <td>标题六</td>
+                                    <td>作者六</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                <tr>
+                                    <td>标题六</td>
+                                    <td>作者六</td>
+                                    <td>HR小技巧</td>
+                                    <td>1024</td>
+                                    <td>99+</td>
+                                    <td>2018.12.25 10:00~12:30</td>
+                                    <td>lyz</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+<!--标签页结束-->
+<!-- 弹出层遮罩 -->
+<div id="layer-mask" class="layer-mask"></div>
+            <!-- 弹出层窗体 -->
+<div id="layer-pop" class="layer-pop">
+           <!-- 弹出层关闭按钮 -->
+   <div id="layer-close" class="layer-close"><img src="img/close.png" alt=""></div>
+            <!-- 弹出层内容区域 -->
+   <div id="layer-content" class="layer-content"></div>
+</div>
+<!-- 分类排序窗体 -->
+<div id="loginHtml" style="display:none;">
+    <!-- 分类排序窗体 -->
+      <div class="login">
+          <p>分类管理</p>
+          <div class="line"></div>
+          <form id="ordCla" name="orderClass" method="get" action="https://cv.rulertech.com:19443/">
+          <input type="text" name="order1" placeholder="排序">
+          <input type="text" name="className1" placeholder="分类名称"><br>
+          <input type="text" name="order2" placeholder="排序">
+          <input type="text" name="className2" placeholder="分类名称"><br>
+          <input type="text" name="order3" placeholder="排序">
+          <input type="text" name="className3" placeholder="分类名称"><br>
+          <input type="text" name="order4" placeholder="排序">
+          <input type="text" name="className4" placeholder="分类名称"><br>
+          <input type="text" name="order5" placeholder="排序">
+          <input type="text" name="className5" placeholder="分类名称"><br>
+          <input type="text" name="order6" placeholder="排序">
+          <input type="text" name="className6" placeholder="分类名称">
+          <div class="item">
+             <label>&nbsp;</label>
+             <input id="actiSubmitBtn" type="submit" class="submit" value="保存"/>
+          </div>
+          </form>
+        </div>
+</div> 
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/myown.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+    </html>
