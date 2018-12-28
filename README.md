@@ -1,2 +1,2 @@
-# Mobile terminal applet
-移动端小程序
+# 优才
+咨询及其详情页面
